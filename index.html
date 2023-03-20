@@ -7,13 +7,17 @@
     <title>Logo</title>
     <!-- File css -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/responsive_tablet.css">
+    <link rel="stylesheet" href="./css/responsive_smartphone.css">
+    <link rel="stylesheet" href="./css/general_responsive.css">
     <!-- Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header class="bg-blue">
+    <header class="bg-blue p-0-2">
         <nav class="flex jc-between ai-center max-w-900 m-center p-1-0">
             <!-- Logo -->
             <div>
@@ -21,7 +25,7 @@
             </div>
 
             <!-- Links -->
-            <div class="flex jc-between ai-center w-50per a-white">
+            <div class="flex jc-between ai-center w-50per a-white disappear">
                 <a href="">Planning</a>
 
                 <a href="">Testimonial</a>
@@ -33,6 +37,10 @@
                 <button class="p-0_5-1 br-30px border-0">
                     Get Started
                 </button>
+            </div>
+
+            <div class="display-none appear">
+                <i class="fa-sharp fa-solid fa-bars c-white fs-25px"></i>
             </div>
         </nav>
     </header>

@@ -1,9 +1,12 @@
+
+
 /* ------ Background ------ */
 
 .bg-blue {background-color: #0084fd;}
 
-/* Border */
+/* ------ Border ------ */
 
 .br-30px {
     border-radius: 30px;
 }
+

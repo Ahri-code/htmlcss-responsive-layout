@@ -15,7 +15,9 @@ ul {list-style-type: none;}
 
 .p-1-0 {padding: 1rem 0;}
 
-.p-0-1 {padding: 0 1px;}
+.p-0-1 {padding: 0 1rem;}
+
+.p-0-2 {padding: 0 2rem;}
 
 /* ------ Margin ------ */
 
@@ -103,4 +105,10 @@ ul {list-style-type: none;}
 
 .c-white {color: white;}
 
+.fs-25px {font-size: 25px;}
+
 /* ------ z-Index ------ */
+
+/* ------ Disapper ------ */
+
+.display-none {display: none;}

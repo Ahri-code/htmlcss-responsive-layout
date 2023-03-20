@@ -1,0 +1,11 @@
+/* ------ Smartphone ------ */
+
+/* --- Header --- */
+
+@media screen and (max-width: 480px) {
+
+    .disappear {display: none;}
+    
+    .appear {display: block;}
+
+}

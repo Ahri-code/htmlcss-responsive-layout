@@ -1,0 +1,12 @@
+/* ------ Tablet ------ */
+
+/* --- Header --- */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .disappear {display: none;}
+    
+    .appear {display: block;}
+
+}
+
