@@ -1,0 +1,11 @@
+/* ------ Computer ------ */
+
+/* --- Header --- */
+
+@media screen and (min-width: 851px) {
+
+    .disappear {display: none;}
+    
+    .appear {display: flex;}
+
+}
