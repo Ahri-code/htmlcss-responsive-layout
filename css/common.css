@@ -11,6 +11,12 @@ ul {list-style-type: none;}
 
 /* ------ Padding ------ */
 
+.p-0_5-1 {padding: 0.5rem 1rem;}
+
+.p-1-0 {padding: 1rem 0;}
+
+.p-0-1 {padding: 0 1px;}
+
 /* ------ Margin ------ */
 
 .m-center {margin: 0 auto;}
@@ -38,6 +44,8 @@ ul {list-style-type: none;}
 .w-80per {width: 80%;}
 
 .w-100per {width: 100%;}
+
+.max-w-900 {max-width: 900px;}
 
 /* ------ Flex ------ */
 
@@ -79,6 +87,15 @@ ul {list-style-type: none;}
 }
 
 .a-black a:hover {text-decoration: underline;}
+
+/* White and underline */
+
+.a-white a{
+    color: white;
+    text-decoration: none;
+}
+
+.a-white a:hover {text-decoration: underline;}
 
 /*  */
 
