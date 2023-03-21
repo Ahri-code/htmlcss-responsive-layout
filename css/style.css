@@ -1,8 +1,8 @@
-
-
 /* ------ Background ------ */
 
 .bg-blue {background-color: #0084fd;}
+
+.bg-light-blue {background-color: #b5ddff;}
 
 /* ------ Border ------ */
 
@@ -10,3 +10,16 @@
     border-radius: 30px;
 }
 
+/* ------ Fonts ------ */
+
+/* Color */
+
+.c-blue {color: #0084fd;}
+
+.c-gray {color: #5a6e7f;}
+
+/* Size */
+
+.fs-24px {font-size: 24px;}
+
+.fs-100px {font-size: 100px;}
