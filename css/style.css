@@ -4,10 +4,16 @@
 
 .bg-light-blue {background-color: #b5ddff;}
 
+.bg-purple {background-color: #9792e4;}
+
 /* ------ Border ------ */
 
 .br-30px {
     border-radius: 30px;
+}
+
+.br-50per {
+    border-radius: 50%;
 }
 
 /* ------ Fonts ------ */
@@ -26,3 +32,9 @@
 
 /* ------ Main ------ */
 
+/* Planning */
+
+#cit {
+    font-style: italic;
+    color: #111111;
+}
