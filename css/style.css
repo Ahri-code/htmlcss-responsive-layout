@@ -24,6 +24,8 @@
 
 .c-gray {color: #5a6e7f;}
 
+.c-purple {color: #9792e4;}
+
 /* Size */
 
 .fs-24px {font-size: 24px;}
@@ -38,3 +40,9 @@
     font-style: italic;
     color: #111111;
 }
+
+/* Testimonials */
+
+.clip {clip-path: circle(38%);}
+
+#testimonials {padding-bottom: 4rem;}
