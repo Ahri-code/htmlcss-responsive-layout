@@ -45,4 +45,27 @@
         width: 50%;
     }
 
+    /* Planning */
+
+    #planning {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #planning > div {
+        width: 45%;
+    }
+
+    #app_development {
+        justify-content: end;
+        margin-top: 100px;
+    }
+
+    #app_development img {
+        width: 70%;
+    }
+
 }
