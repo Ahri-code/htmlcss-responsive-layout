@@ -39,7 +39,10 @@
         width: 60%;
     }
 
-    /*  */
+    /* Planning */
+
+    h2 {
+        font-size: 50px;
+    }
 
 }
-
