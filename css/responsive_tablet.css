@@ -1,8 +1,41 @@
+/* ------ Galaxy Fold ------ */
+
+/* --- Main --- */
+
+@media screen and (max-width: 300px) {
+    
+    #promotion button {
+        padding: 0.75rem 2rem;
+    }
+
+}
+
 /* ------ Tablet ------ */
 
-/* --- Header --- */
+/* --- Main --- */
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    #promotion {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    #promotion > div {
+        width: 30%;
+        margin: 0;
+    }
+
+    #promotion #app {
+        width: 65%;
+    }
+
+    #promotion img {
+        width: 60%;
+    }
 
 }
 
